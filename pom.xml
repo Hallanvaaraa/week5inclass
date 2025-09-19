@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>TomminOma</groupId>
-  <artifactId>week5inclass</artifactId>
+  <artifactId>week5inClass</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>week5inclass</name>
+  <name>week5inClass</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -21,5 +21,23 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+      <!-- Hibernate ORM -->
+      <dependency>
+        <groupId>org.hibernate.orm</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>6.2.5.Final</version>
+      </dependency>
+      <!-- Jakarta Persistence API -->
+      <dependency>
+        <groupId>jakarta.persistence</groupId>
+        <artifactId>jakarta.persistence-api</artifactId>
+        <version>3.1.0</version>
+      </dependency>
+      <!-- MariaDB JDBC Driver -->
+      <dependency>
+        <groupId>org.mariadb.jdbc</groupId>
+        <artifactId>mariadb-java-client</artifactId>
+        <version>3.4.1</version>
+      </dependency>
   </dependencies>
 </project>
