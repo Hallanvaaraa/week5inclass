@@ -10,9 +10,7 @@
                       value="jdbc:mariadb://localhost:3306/week5inClass"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
             <property name="jakarta.persistence.jdbc.password" value="7415"/>
-            <property name="jakarta.persistence.schema-generation.scripts.action" value="drop-and-create"/>
             <!-- Hibernate properties -->
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDBDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>

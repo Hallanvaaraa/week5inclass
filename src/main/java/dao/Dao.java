@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 
 public class Dao {
 
-    private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("inClass_pu");
+    private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("week5inClass");
 
     public Student findStudent(String email) {
         EntityManager em = emf.createEntityManager();

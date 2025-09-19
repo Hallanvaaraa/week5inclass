@@ -13,7 +13,7 @@ public class App {
 
         dao.addStudent(newStudent);
 
-        newStudent = new Student("Maija Meikäläinen", "maija@googol.com");
+        newStudent = new Student("Tommi Halla", "tommi@googol.com");
 
         dao.addStudent(newStudent);
 
